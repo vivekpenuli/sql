@@ -1,4 +1,4 @@
-
+/*Product table*/
 create table products
 (
     productid number(5) primary key,
