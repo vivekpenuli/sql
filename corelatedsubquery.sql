@@ -204,7 +204,7 @@ select max("total_sal") from (select deptid, sum(salary) as "total_sal" from emp
 group by deptid)
 ;
 
-select deptid, sum(salary) as "total_sal
+select deptid, sum(salary) as "total_sal"
 ;
 
 select deptid, sum(salary) as "total_sal" from emp  
